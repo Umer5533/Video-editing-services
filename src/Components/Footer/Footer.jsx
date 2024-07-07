@@ -7,7 +7,7 @@ import linkedinIcon from '../../assets/linkedinIcon.png'
 const Footer = () => {
   return (
     <>
-    <footer class="footer">
+    <footer class="footer bg-custom-lightblue-rgb">
         <div class="footer-container">
             <div class="footer-column">
                 <h3>Contact Us</h3>
@@ -38,7 +38,7 @@ const Footer = () => {
                 <p>We are a leading company in providing excellent services and solutions. Our goal is to meet customer satisfaction.</p>
             </div>
         </div>
-        <div class="footer-bottom">
+        <div class="footer-bottom bg-custom-lightblue-rgb">
             <p>&copy; 2024 NextGen. All rights reserved.</p>
             <ul>
                 <li>Terms of Services</li> 
