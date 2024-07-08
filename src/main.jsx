@@ -3,11 +3,11 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Banner from "./Components/Banner/banner.jsx";
 import Ourwork from "./Components/OurWork/ourwork.jsx";
 import Services from "./Components/Services/services.jsx";
 import Ourclients from "./Components/Ourclients/Ourclients.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
+import Home from "./Components/Home/Home.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "",
-        element: <Banner />,
+        element: <Home />,
       },
       {
         path: "Ourwork",

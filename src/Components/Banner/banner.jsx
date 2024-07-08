@@ -8,7 +8,6 @@ import banner1 from "../../assets/banner1.jpg";
 import banner2 from "../../assets/banner2.jpg";
 import gigVideo from "../../assets/gigvideo.mp4";
 import arrow from "../../assets/arrow.png";
-import QualityWeServe from "../QualityWeServe/QualityWeServe";
 const Banner = () => {
   const settings = {
     dots: true,
@@ -38,13 +37,13 @@ const Banner = () => {
       <div className="slider-container">
         <Slider {...settings}>
           <div className=" bg-custom-skyblue-rgb min-h-screen lg:h-screen ">
-          <h2 className={`inline-block absolute top-10 left-10 font-bold text-6xl text-custom-pink-rgb `} >NEXT<span className="font-medium uppercase text-3xl">Gen</span></h2>
+          <h2 className={`inline-block absolute  top-10 left-4 md:left-10 font-bold text-4xl md:text-5xl lg:text-6xl text-custom-pink-rgb `} >NEXT<span className="font-medium uppercase text-2xl md:text-3xl">Gen</span></h2>
 
             <div className="sm:w-full lg:w-11/12 mx-auto mt-36 lg:mt-48 mb-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-auto lg:gap-0 gap-8 grid-row-2 lg:grid-rows-1 ">
                 <div className="">
                   <div className="w-11/12   mx-auto ">
-                    <h1 className="text-5xl text-custom-blue-rgb font-semibold capitalize">
+                    <h1 className="text-4xl md:text-5xl text-custom-blue-rgb font-semibold capitalize">
                     Professional Video Editing & Post-Production Services
                     </h1>
                     <p className=" text-black font-normal text-lg mt-8 mb-10">
@@ -72,7 +71,7 @@ const Banner = () => {
           </div>
 
           <div className=" bg-custom-skyblue-rgb min-h-screen lg:h-screen ">
-          <h2 className={`inline-block absolute top-10 left-10 font-bold text-6xl text-custom-pink-rgb `} >NEXT<span className="font-medium uppercase text-3xl">Gen</span></h2>
+          <h2 className={`inline-block absolute top-10 left-4 md:left-10 font-bold text-4xl md:text-5xl lg:text-6xl text-custom-pink-rgb `} >NEXT<span className="font-medium uppercase text-2xl md:text-3xl">Gen</span></h2>
 
             <div className="sm:w-full lg:w-11/12 mx-auto mt-36 lg:mt-48 mb-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-auto lg:gap-0 gap-8 grid-row-2 lg:grid-rows-1 ">
@@ -107,7 +106,7 @@ const Banner = () => {
         </Slider>
       </div>
 
-      <QualityWeServe/>
+      
     </>
   );
 };

@@ -11,6 +11,7 @@ export default {
         'custom-blue-rgb': 'rgb(0, 43, 128)',
         'custom-pink-rgb': 'rgb(199, 77, 214)',
         'custom-lightblue-rgb': 'rgb(72, 179, 216)',
+        'custom-darkblue-rgb': 'rgb(25, 30, 64)',
       },
     },
   },

@@ -25,14 +25,14 @@ const NavComponent = () => {
       <>
       {/* <h2 className={`text-custom-pink-rgb ${mobileMenu ? 'anchor': 'h2Opacity'}`} >NEXTGen</h2> */}
     {/* <nav className={`Container ${sticky? 'bg-custom-lightblue-rgb dark-nav' : ''}`}> */}
-    <nav className="fixed lg:absolute lg:w-6/12 lg:right-10 right-6 top-10 bg-custom-lightblue-rgb rounded">
+    <nav className="fixed lg:absolute lg:w-6/12 lg:right-10 right-4 top-10 bg-custom-lightblue-rgb lg:bg-white rounded">
 
-        <ul className={ ` lg:w-11/12 lg:mx-auto bg-custom-lightblue-rgb lg:text-center ${mobileMenu ? '' : 'hideMobileNav'}`}>
-            <li ><NavLink onClick={toggleMenu} className = {({isActive})=> ` lg:hover:text-custom-pink-rgb ${mobileMenu ? 'my': 'anchor '} ${isActive? 'lg:text-custom-pink-rgb  lg:uppercase' : 'white'}`} to="/" >Home</NavLink></li>
-            <li ><NavLink onClick={toggleMenu} className = {({isActive})=> ` lg:hover:text-custom-pink-rgb ${mobileMenu ? 'my': 'anchor '} ${isActive? 'lg:text-custom-pink-rgb  lg:uppercase' : 'white'}`} to="/services" >Services</NavLink></li>
-            <li ><NavLink onClick={toggleMenu} className=  {({isActive})=> ` lg:hover:text-custom-pink-rgb ${mobileMenu ? 'my': 'anchor '} ${isActive? 'lg:text-custom-pink-rgb  lg:uppercase' : 'white'}`} to='/ourwork' >OurWork</NavLink></li>
-            <li ><NavLink onClick={toggleMenu} className=  {({isActive})=> ` lg:hover:text-custom-pink-rgb ${mobileMenu ? 'my': 'anchor '} ${isActive? 'lg:text-custom-pink-rgb  lg:uppercase' : 'white'}`} to='/ourClients' >OurClients</NavLink></li>
-            <li ><NavLink onClick={toggleMenu} className = {({isActive})=> ` lg:hover:text-white lg:hover:bg-custom-pink-rgb  lg:text-custom-pink-rgb lg:px-8 lg:py-2 rounded ${mobileMenu ? 'my': 'anchor '} ${isActive? 'lg:text-white  lg:bg-custom-pink-rgb ' : 'lg:bg-white lg:text-custom-pink-rgb'}`}  to='/contact' >Contact</NavLink></li>
+        <ul className={ ` lg:w-full lg:py-1 rounded  bg-custom-lightblue-rgb lg:text-center ${mobileMenu ? '' : 'hideMobileNav'}`}>
+            <li ><NavLink onClick={toggleMenu} className = {({isActive})=> ` hover:text-custom-pink-rgb transition-all ${mobileMenu ? 'my': 'anchor '} ${isActive? 'lg:text-white lg:hover:text-white lg:bg-custom-pink-rgb lg:px-6 lg:py-3 rounded  ' : ''}`} to="/" >Home</NavLink></li>
+            <li ><NavLink onClick={toggleMenu} className = {({isActive})=> ` hover:text-custom-pink-rgb transition-all ${mobileMenu ? 'my': 'anchor '} ${isActive? 'lg:text-white lg:hover:text-white lg:bg-custom-pink-rgb lg:px-6 lg:py-3 rounded  ' : ''}`} to="/services" >Services</NavLink></li>
+            <li ><NavLink onClick={toggleMenu} className=  {({isActive})=> ` hover:text-custom-pink-rgb transition-all ${mobileMenu ? 'my': 'anchor '} ${isActive? 'lg:text-white lg:hover:text-white lg:bg-custom-pink-rgb lg:px-6 lg:py-3 rounded  ' : ''}`} to='/ourwork' >OurWork</NavLink></li>
+            <li ><NavLink onClick={toggleMenu} className=  {({isActive})=> ` hover:text-custom-pink-rgb transition-all ${mobileMenu ? 'my': 'anchor '} ${isActive? 'lg:text-white lg:hover:text-white lg:bg-custom-pink-rgb lg:px-6 lg:py-3 rounded  ' : ''}`} to='/ourClients' >OurClients</NavLink></li>
+            <li ><NavLink onClick={toggleMenu} className = {({isActive})=> ` hover:text-custom-pink-rgb transition-all ${mobileMenu ? 'my': 'anchor '} ${isActive? 'lg:text-white lg:hover:text-white lg:bg-custom-pink-rgb lg:px-6 lg:py-3 rounded' : ' '}`}  to='/contact' >Contact</NavLink></li>
            
         </ul>
 

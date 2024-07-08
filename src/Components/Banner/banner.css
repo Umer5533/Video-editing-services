@@ -62,8 +62,8 @@ font-weight: 600;
   .custom-dot {
     width: 20px;
     height: 20px;
-    background-color: #fff;
-    color: #000;
+    background-color: #48B3D8;
+    /* color: #CA56D8; */
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -73,8 +73,8 @@ font-weight: 600;
   
   .custom-dot.slick-active {
    
-    background-color: #000;
-    color: #fff;
+    background-color: #CA56D8;
+    /* color: #48B3D8; */
   }
   
   
