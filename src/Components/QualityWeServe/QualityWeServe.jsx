@@ -5,7 +5,7 @@ import hicon3 from "../../assets/hicon3.png";
 function QualityWeServe() {
   return (
     <div>
-      <div className="lg:w-11/12 mx-auto mt-20 lg:mt-28 center">
+      <div className="lg:w-11/12 mx-auto mt-20 lg:mt-28 ">
       <h2 className="capitalize text-3xl font-bold lg:font-extrabold text-custom-darkblue-rgb w-11/12 lg:w-8/12 text-center mx-auto lg:leading-relaxed">Unlock finesse With Our Video Editing
       and Post-Production Services</h2>
         <div className="grid grid-cols-1 grid-rows-auto lg:grid-cols-3 lg:grid-rows-1 mt-8">
