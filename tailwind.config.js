@@ -14,6 +14,9 @@ export default {
         'custom-darkblue-rgb': 'rgb(25, 30, 64)',
         'custom-lightgray-rgb': 'rgb(242, 242, 242)',
       },
+      boxShadow: {
+        'custom-inset-2xl': 'inset 0 -50px 50px -35px rgb(0 0 0 / 0.25)'
+      }
     },
   },
   plugins: [],
