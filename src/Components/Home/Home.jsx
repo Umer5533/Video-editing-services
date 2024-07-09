@@ -3,6 +3,7 @@ import Banner from '../Banner/banner'
 import QualityWeServe from '../QualityWeServe/QualityWeServe'
 import VideoCategories from '../VideoCategories/VideoCategories'
 import TimeLine from '../TimeLine/TimeLine'
+import Ourclients from '../Ourclients/Ourclients'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
     <QualityWeServe/>
     <VideoCategories/>
     <TimeLine/>
+    <Ourclients/>
     </>
   )
 }
